@@ -11,11 +11,11 @@ const DesktopSidebar = ({
   onSectionChange,
 }: DesktopSidebarProps) => {
   const navItems = [
+    { id: "home", label: "Главная", icon: "Home" },
     { id: "music", label: "Музыка", icon: "Music" },
     { id: "concerts", label: "Концерты", icon: "Calendar" },
     { id: "artists", label: "Артисты", icon: "Users" },
     { id: "merch", label: "Мерч", icon: "ShoppingBag" },
-    { id: "profile", label: "Профиль", icon: "User" },
   ];
 
   return (
